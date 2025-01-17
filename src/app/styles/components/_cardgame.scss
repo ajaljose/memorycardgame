@@ -5,6 +5,7 @@ body{
     display: flex;
            justify-content: center;
            align-items: center;
+           flex-direction: column;
     .cardGrid{
 
         display: grid;
@@ -52,5 +53,12 @@ body{
 
     .card.active {
         transform: rotateY(180deg);
+    }
+
+    button{
+        background-color: #5FA8D3;
+        height: 25px;
+        width: 180px;
+        border-radius: 5px;
     }
 }
